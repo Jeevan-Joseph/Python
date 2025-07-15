@@ -1,9 +1,9 @@
 
 def iterate(num):
-    if num==1:
-        return 1
+    if num==0:
+        return 
     print(num)
     return iterate(num-1)
 
-
-print(iterate(100))
+user = int(input("Enter any number:"))
+iterate(100)
