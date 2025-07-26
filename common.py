@@ -11,4 +11,5 @@ def longestCommonPrefix(list1):
         
     
 a =["flight","flower","flag"]
+
 print(longestCommonPrefix(a))
